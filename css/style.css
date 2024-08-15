@@ -1,0 +1,93 @@
+
+
+h1{
+    color: rgb(197, 221, 239);
+	font-family: "Chakra Petch", sans-serif;
+    text-align: center;
+    background-image: linear-gradient(to right,rgb(203, 123, 243),rgb(66, 164, 240));
+    margin: 0px;
+	padding: 10px;
+}
+body {
+	background-image: linear-gradient(to right,rgb(0, 255, 238),rgb(59, 228, 243));
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    margin-top: 200px;
+	height: 100%;
+	width: 100%;
+}
+
+#container {
+	width: 300px;
+    height: 350px;
+	padding: 20px 20px 40px 20px;
+	margin: 20px auto;
+	background-color:rgb(37, 114, 238);
+	border-radius: 4px;
+	border: 1px solid rgb(37, 114, 238);
+	
+	
+}
+
+#display {
+	display: block;
+	font-family: "Chakra Petch", sans-serif;
+	margin: 5px;
+	height: 42px;
+	width: 260px;
+	padding: 0 10px;
+	border-radius: 7px;
+	background-color:white;
+	font-size: 28px;
+	color:black;
+	text-align: right;
+	
+    
+}
+
+.button {
+	display: inline-block;
+	margin: 2px;
+	width: 65px;
+	height: 42px;
+    margin-top: 20px;
+	font-size: 16px;
+	font-weight: bold;
+	border-radius: 4px;
+}
+
+.mathButtons {
+	font-family: "Chakra Petch", sans-serif;
+	margin: 2px 2px 6px 2px;
+	color:rgb(255, 255, 255);
+	background-color: rgb(16, 9, 43);
+	
+}
+.displaybutton{
+	font-family: "Chakra Petch", sans-serif;
+    margin-right:10px;
+    color:black;
+	background-color: gray;
+
+}
+
+.digits {
+	font-family: "Chakra Petch", sans-serif;
+	color: black;
+	background-color:rgb(145, 196, 235);
+	border-radius: 4px;
+}
+
+
+
+#clearButton {
+	font-family: "Chakra Petch", sans-serif;
+	color:white;
+    background-color:red;
+}
